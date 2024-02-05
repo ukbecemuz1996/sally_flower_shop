@@ -9,7 +9,7 @@
                 <header>
                     <field name="is_flower" invisible="1"/>
                     <button string="Water Flower" type="object" name="action_water_flower" class="oe_highlight"
-                            invisible="is_flower == False"/>
+                            invisible="not is_flower"/>
                 </header>
             </xpath>
         </field>
