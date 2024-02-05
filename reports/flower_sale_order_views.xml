@@ -45,7 +45,7 @@
                     <h2>
                         <span>Flower Product</span>
                     </h2>
-                    <table border="1" style="width:100%;">
+                    <table border="1" class="w-100">
                         <thead >
                             <th><center>Common Name</center></th>
                             <th><center>Scientific Name</center></th>
