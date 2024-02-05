@@ -7,7 +7,7 @@ class Product(models.Model):
 
     is_flower = fields.Boolean('Is Flower Product?')
     flower_id = fields.Many2one('sally.flower')
-    needs_watering = fields.Boolean("Needs Watering", default=False)
+    needs_watering = fields.Boolean("Needs Watering")
     sequence_id = fields.Many2one("ir.sequence", "Flower Sequence")
     gardeners_ids = fields.Many2many('res.users', string="Gardeners Users")
 
