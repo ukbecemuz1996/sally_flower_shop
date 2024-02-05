@@ -2,7 +2,7 @@
 <odoo>
     <record  id="watering_ir_cron_scheduler_action" model="ir.cron">
         <field name="name">Watering : for Gardeners</field>
-        <field name="model_id" ref="model_product_product"/>
+        <field name="model_id" ref="product.model_product_product"/>
         <field name="state">code</field>
         <field name="code">model.action_needs_watering()</field>
         <field name="interval_number">1</field>
