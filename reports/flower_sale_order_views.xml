@@ -37,7 +37,7 @@
         <t t-set="footer" t-value="'oe_hidden'"/>
         <t t-call="web.external_layout">
             <div class="page">
-                <center><strong t-esc="docs[0].company_id.name"/></center>
+                <center><strong t-out="docs[0].company_id.name"/></center>
             </div>
             <p style="page-break-after:always;"></p>
             <t t-foreach="docs.order_line.product_id.flower_id" t-as="flower">
